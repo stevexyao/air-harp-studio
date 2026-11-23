@@ -1,0 +1,6 @@
+# Preserve generated third-party runtime assets and keep language stats useful.
+vendor/** linguist-vendored -whitespace
+wasm/** linguist-vendored -whitespace
+models/** linguist-generated
+*.wasm binary
+*.task binary

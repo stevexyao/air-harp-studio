@@ -1,0 +1,18 @@
+# Local dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated verification files; retain the distributable interface previews.
+/预览/*.json
+/预览/*.webm
+/预览/竖琴桌面_初检.png
+/预览/摄像头模拟输入验证.png
+/预览/桌面演奏_已验证.png
+test-results/
+playwright-report/
